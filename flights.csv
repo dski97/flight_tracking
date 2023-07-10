@@ -1,0 +1,3 @@
+id,time_stamp,reg_number,alt,dir,speed,lat,lng,dep_iata,flight_icao,status
+1,07/10/2023 00:33:29,N73445,10668,72,950,41.482327,-98.156708,DEN,UAL651,en-route
+2,07/10/2023 00:33:29,N834SK,0,22,27,42.213329,-83.360413,DTW,SKW3906,en-route

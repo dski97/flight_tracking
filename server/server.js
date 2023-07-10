@@ -13,6 +13,8 @@ const app = express()
 
 const cors = require("cors")
 
+const {runQueries} = require('../server/database.js')
+
 // Allow us to load environment variables from the .env file
 require("dotenv").config()
 
@@ -130,7 +132,7 @@ app.get('/flights/:airport_code', async (request, response) => {
           console.log(" +++++++++ calling runQueries() +++++++++++++++")
           
           // Used for lab 7
-          // runQueries(json)
+          runQueries(json)
 
           console.log(" +++++++++ completed runQueries() +++++++++++++++")
 
